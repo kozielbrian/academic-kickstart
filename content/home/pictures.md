@@ -17,5 +17,5 @@ weight = 66
 
 Here are some of my favorite pictures :)
 
-{{< figure src="/img/marathon.jpg" title="Finishing my first marathon" >}}
+{{< figure src="/img/marathon.jpg" title="Finishing my first marathon at the Columbus Nationwide Marathon. Very pleased with my 2:49 time (~6:30 average mile pace)." >}}
 {{< figure src="/img/taipeiPic.jpg" title="Traveling to Taipei for CHES 2017" >}}
