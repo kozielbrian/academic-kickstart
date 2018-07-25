@@ -26,7 +26,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-122823982-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -101,9 +101,9 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
-  zoom = 15
+  latitude = "32.7767"
+  longitude = "-96.7970"
+  zoom = 4
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -297,16 +297,21 @@ enableGitInfo = false
 #  weight = 5
 
 [[menu.main]]
+  name = "Pictures"
+  url = "#pictures"
+  weight = 6
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  [[menu.main]]
     name = "CV"
     url = "files/cv.pdf"
-    weight = 7
+    weight = 8
 
 # Taxonomies.
 [taxonomies]
