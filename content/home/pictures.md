@@ -18,4 +18,4 @@ weight = 66
 Here are some of my favorite pictures :)
 
 {{< figure src="/img/marathon.jpg" title="Finishing my first marathon at the 2013 Columbus Marathon. Very pleased with my 2:49 time (~6:30 average mile pace). Next goal is to reach my dad's 2:35 marathon time!" >}}
-{{< figure src="/img/taipeiPic.jpg" title="Traveling to Taipei for CHES 2017! I had an amazing time frolicking around the city and meeting many researchers at the conference." >}}
+{{< figure src="/img/taipeiPic.jpg" title="Traveling to Taipei for CHES 2017! I had an amazing time exploring around the city and meeting many researchers at the conference." >}}
