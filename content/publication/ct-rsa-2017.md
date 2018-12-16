@@ -19,7 +19,7 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = "Topics in Cryptology - CT-RSA 2018 - The Cryptographers' Track at the RSA Conference 2018, San Francisco, CA, USA, April 16-20, 2018, Proceedings"
-publication_short = "CT-RSA 2018"
+publication_short = "CT-RSA"
 
 # Abstract and optional shortened version.
 abstract = "In this work, we present an exposure model for the isogeny computation in the quantum-resistant supersingular isogeny Diffie-Hellman (SIDH) key exchange protocol. Notably, we propose this exposure model to characterize the severity of new attacks that force an SIDH user to divulge certain intermediate values. In our model, we show how an attacker can break SIDH by discovering an intermediate kernel point and its corresponding curve. To strengthen an SIDH-user against the exposure of intermediate values, we propose a random curve isomorphism that is performed just before the large-degree isogeny. We show that this countermeasure is computationally inexpensive compared to the whole of SIDH and can still operate with the Kirkwood et al. validation model that allows a static-key user to ensure the first round of the other party was performed honestly. The goal of this paper is to present an additional protection against future attacks for implementations of SIDH."

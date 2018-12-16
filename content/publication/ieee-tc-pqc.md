@@ -43,8 +43,8 @@ projects = []
 tags = ["Elliptic Curve Cryptography", "Field Programmable Gate Array", "Isogeny-Based Cryptography", "Post-Quantum Cryptography"]
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://ieeexplore.ieee.org/abstract/document/8315051/"
+url_pdf = "https://ieeexplore.ieee.org/document/8315051/"
+url_preprint = "" 
 url_code = ""
 url_dataset = ""
 url_project = ""

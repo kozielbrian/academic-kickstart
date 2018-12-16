@@ -1,10 +1,10 @@
 +++
-title = "Side-Channel Attacks on Quantum-Resistant Supersingular Isogeny Diffie-Hellman"
-date = 2017-08-22T00:40:17-04:00
+title = "EdSIDH: Supersingular Isogeny Diffie-Hellman on Edwards Curves"
+date = 2018-12-07T18:36:16-06:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["__B. Koziel__", "R. Azarderakhsh", "D. Jao"]
+authors = ["R. Azarderakhsh", "D. Jao", "__B. Koziel__", "E. B. Lang"]
 
 # Publication type.
 # Legend:
@@ -18,11 +18,11 @@ authors = ["__B. Koziel__", "R. Azarderakhsh", "D. Jao"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Selected Areas in Cryptography: 24th International Conference, SAC 2017, Ottawa, ON, Canada, August 16-18, 2017, Revised Selected Papers"
-publication_short = "SAC"
+publication = "Security, Privacy, and Applied Cryptography Engineering - 8th International Conference, SPACE 2018, Kanpur, India, December 15-19, 2018, Proceedings"
+publication_short = "SPACE"
 
 # Abstract and optional shortened version.
-abstract = "In this paper, we present three side-channel attacks on the quantum-resistant supersingular isogeny Diffie-Hellman (SIDH) key exchange protocol. These refined power analysis attacks target the representation of a zero value in a physical implementation of SIDH to extract bits of the secret key. To understand the behavior of these zero-attacks on SIDH, we investigate the representation of zero in the context of quadratic extension fields and isogeny arithmetic. We then present three different refined power analysis attacks on SIDH. Our first and second attacks target the Jao, De Feo, and Plût three-point Montgomery ladder by utilizing a partial-zero attack and zero-value attack, respectively. Our third attack proposes a method to break the large-degree isogeny by utilizing zero-values in the context of isogenies. The goal of this paper is to illustrate additional security concerns for an SIDH static-key user."
+abstract = "Problems relating to the computation of isogenies between elliptic curves defined over finite fields have been studied for a long time. Isogenies on supersingular elliptic curves are a candidate for quantum-safe key exchange protocols because the best known classical and quantum algorithms for solving well-formed instances of the isogeny problem are exponential. We propose an implementation of supersingular isogeny Diffie-Hellman (SIDH) key exchange for complete Edwards curves. Our work is motivated by the use of Edwards curves to speed up many cryptographic protocols and improve security. Our work does not actually provide a faster implementation of SIDH, but the use of complete Edwards curves and their complete addition formulae provides security benefits against side-channel attacks. We provide run time complexity analysis and operation counts for the proposed key exchange based on Edwards curves along with comparisons to the Montgomery form."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -40,10 +40,10 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Side-Channel Analysis", "Post-Quantum Cryptography", "Isogeny-Based Cryptography", "Elliptic Curve Cryptography"]
+tags = ["Edwards Curves", "Isogeny Arithmetic", "Supersingular Isogeny Diffie-Hellman Key Exchange"]
 
 # Links (optional).
-url_pdf = "https://link.springer.com/chapter/10.1007%2F978-3-319-72565-9_4"
+url_pdf = "https://link.springer.com/chapter/10.1007/978-3-030-05072-6_8"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

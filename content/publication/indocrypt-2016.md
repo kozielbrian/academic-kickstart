@@ -18,8 +18,8 @@ authors = ["__B. Koziel__", "R. Azarderakhsh", "M. M. Kermani"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Progress in Cryptology -- INDOCRYPT 2016, 17th International Conference on Cryptology in India, Kolkata, India, December 11-14, 2016, Proceedings"
-publication_short = "Indocrypt 2016"
+publication = "Progress in Cryptology - INDOCRYPT 2016, 17th International Conference on Cryptology in India, Kolkata, India, December 11-14, 2016, Proceedings"
+publication_short = "Indocrypt"
 
 # Abstract and optional shortened version.
 abstract = "In this paper, we present a constant-time hardware implementation that achieves new speed records for the supersingular isogeny Diffie-Hellman (SIDH), even when compared to highly optimized Haswell computer architectures. We employ inversion-free projective isogeny formulas presented by Costello et al. at CRYPTO 2016 on an FPGA. Modern FPGA’s can take advantage of heavily parallelized arithmetic in $\\mathbb{F}_{p^2}$ , which lies at the foundation of supersingular isogeny arithmetic. Further, by utilizing many arithmetic units, we parallelize isogeny evaluations to accelerate the computations of large-degree isogenies by approximately 57%. On a constant-time implementation of 124-bit quantum security SIDH on a Virtex-7, we generate ephemeral public keys in 10.6 and 11.6 ms and generate the shared secret key in 9.5 and 10.8 ms for Alice and Bob, respectively. This improves upon the previous best time in the literature for 768-bit implementations by a factor of 1.48. Our 83-bit quantum security implementation improves upon the only other implementation in the literature by a speedup of 1.74 featuring fewer resources and constant-time."
